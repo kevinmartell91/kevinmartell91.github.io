@@ -2,7 +2,7 @@
 title: Ask Dr.Berg with Langchain
 date: 2023-05-04 12:00:00 -500
 categories: [llm, tutorial]
-tags: [langChain, ]
+tags: [langChain, YoutubeLoader ]
 ---
 
 In this tutorial, we will ask Dr.Berg to answer health inquiries using Langchain.
