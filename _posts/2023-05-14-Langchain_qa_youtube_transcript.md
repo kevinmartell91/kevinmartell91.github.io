@@ -39,7 +39,7 @@ We use two of Dr.Berg's YouTube videos as a corpus.
 
 So someone can ask questions and get answers in the context of the videos. E.g., Why is sugar consumption unhealthy?
 
-![jupyter notebook](/assets/lib/Langchain_qa_youtube_transcript/demo/demo_qa_youtube_langchain.png)
+![jupyter notebook](https://raw.githubusercontent.com/kevinmartell91/langchain-projects/main/question-answer_youtube-video-as-text/setup/demo/demo_qa_youtube_langchain.png)
 
 ## Stack
 We use LangChain to organize the Large Language model (LLM) invocation and prompt.
@@ -60,17 +60,17 @@ You can take as a reference the .env.example file to create your .env file.
 ### Get your OpenAi and Pinecone Api_keys
 It is a must to have the OPENAI_API_KEY to have access to OpenAI LLM models. 
 
-![OpenAI - Api key](/assets/lib/Langchain_qa_youtube_transcript/openai/openai_api_key.png)
+![OpenAI - Api key](https://raw.githubusercontent.com/kevinmartell91/langchain-projects/main/question-answer_youtube-video-as-text/setup/openai/openai_api_key.png)
 
 Go to Pinecone to get the PINECONE_API_KEY to store the embeddings in the cloud.
 
-![Pinecone - environment](/assets/lib/Langchain_qa_youtube_transcript/pinecone/pinecone_api_key.png)
+![Pinecone - environment](https://raw.githubusercontent.com/kevinmartell91/langchain-projects/main/question-answer_youtube-video-as-text/setup/pinecone/pinecone_api_key.png)
 
 Note: Both third-party services offer a free trial, so there is no cost for experimenting with these awesome technologies.
 
 Then, create an index in Pinecone.
 
-![Pinecone - Create index](/assets/lib/Langchain_qa_youtube_transcript/pinecone/pinecone_create_index.png)
+![Pinecone - Create index](https://raw.githubusercontent.com/kevinmartell91/langchain-projects/main/question-answer_youtube-video-as-text/setup/pinecone/pinecone_create_index.png)
 
 
 ### Load libraries
